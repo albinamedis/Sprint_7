@@ -12,7 +12,6 @@ import qa_scooter.praktikum.order.Order;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static qa_scooter.praktikum.utils.Utils.randomInt;
 import static qa_scooter.praktikum.utils.Utils.randomString;

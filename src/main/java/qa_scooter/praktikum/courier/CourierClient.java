@@ -32,7 +32,6 @@ public class CourierClient {
         return given()
                 .header("Content-type", "application/json")
                 .and()
-             //   .body()
                 .when()
                 .delete(DELETE_URL+id);
     }

@@ -6,7 +6,6 @@ import org.apache.http.HttpStatus;
 import org.junit.Before;
 import org.junit.Test;
 import qa_scooter.praktikum.constants.Url;
-import qa_scooter.praktikum.order.Order;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.notNullValue;

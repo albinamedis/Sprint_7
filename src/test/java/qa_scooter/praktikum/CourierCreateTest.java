@@ -9,7 +9,6 @@ import org.junit.Test;
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static qa_scooter.praktikum.courier.CourierGenerator.*;
 import qa_scooter.praktikum.constants.Url;
