@@ -18,7 +18,6 @@ public class OrderGetTest {
         RestAssured.baseURI = Url.BASE_URI;
     }
 
-
     @Test
     public void getOrders() {
         Response response = given()
